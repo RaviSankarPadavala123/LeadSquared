@@ -1,0 +1,26 @@
+1)SELECT DEPARTMENT,COUNT(*) FROM EMPLOYEE GROUP BY DEPARTMENT
+2)Select * from Employee group by Department order by Manager desc
+3)SELECT EMPLOYEE_REF_ID,SUM(INCENTIVE_AMOUNT) from Incentives WHERE  EMPLOYEE_REF_ID=1 AND MONTH(INCENTIVE_DATE)=2
+4)Select EMPLOYEE_REF_ID,MAX(Incentive_Amount),Month(INCENTIVE_DATE) from Incentives group by  EMPLOYEE_REF_ID
+
+
+5)Start both the timers at a time. Filp over 4 m timer twice & so that when 7m timer is over , flip it .
+There is sand remaining in 4m timer for one minute. Start 7m timer and when 1 minute sand in 4m timer is over mark that point on 7m timer.
+We will get 1 minute marking on 7m timer.
+Now start 4m timer and then flip it over so that we get 4+ 4 = 8m and then start 7m timer up to 1 minute mark , we will get:
+4+4+1 = 9 minutes.
+
+6)P(2nd child is a girl/1st child is a girl)
+Sample space is (Girl,Girl),(Boy,Girl),(Girl,Boy),(Boy,Boy)
+Since we know 1st child is a girl we will drop (Boy,Boy)
+So required answer is 1/3 as we have only one observation of both girls from 3 observations. 
+
+7)The statement says that Ron’s Cafe increased its business by 10 percent over the last year by advertising in the local radio station, so other businesses should follow the same path and advertise on local radio to make their business more profitable.
+But we are not sure that whether the increase in profits is subtracted from cost of advertising. So, if they didn't subtract their advertising costs from profits their would be no increase in profits
+
+We can't surely say that the same advertisement campaign would work for other businesses and also the customers who would listen to local radio should also be taken into account.
+Based on their business it might not be limited to some towns so advertising in all the places where they have businesses would increase the cost of advertising and we don't know surely whether it would work.
+And advertising might not be the reason for the increase in profits there might be opening of new stalls in the area or they might have gave a discount.
+So advertising in local radio station might not be the only contributor for the increase in the cafe business.
+Based on the above argument the statement is  flawed and could be strengthened if the concerns are addressed
+
